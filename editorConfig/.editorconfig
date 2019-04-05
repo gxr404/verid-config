@@ -1,0 +1,39 @@
+# https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties
+
+# 将自动在要检测的文件目录里寻找它们，紧接着是父级目录，一直到文件系统的根目录（除非指定 root: true)
+# 表从当前目录开始检测
+root = true
+
+# 根据文件类型 指定规则
+# [*]
+# [*.{js,py}]
+# [*.py]
+
+
+[*]
+# 缩进格式 < tab | space >
+indent_style = tab
+
+# 缩进大小  < tab | int值 >
+# 为tab时 取 tab_width的值
+indent_size = 4
+
+# tab的占几个空格 <int值>
+# tab_width = 4
+
+# 换行符 < lf | crlf | cr>
+end_of_line = lf
+
+# 文件的字符编码 < latin1 | utf-8 | utf-16be | utf-16le | utf-8-bom >
+charset = utf-8
+
+# 是否 行尾不空格(markdown 行尾需要两个空格表示换行)
+# trim_trailing_whitespace = false
+
+# 文件最后是否新一行空行
+insert_final_newline = false
+
+# 一行内超过  <int值 | off> ## vscdoe好像不支持
+# max_line_length = 4
+
+
