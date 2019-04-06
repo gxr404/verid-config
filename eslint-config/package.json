@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "eslint": "eslint ./testdir/*"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-html": "^5.0.3"
+  }
+}
