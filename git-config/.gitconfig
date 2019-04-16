@@ -1,0 +1,20 @@
+[user]
+	# name = you name
+	# email = you email
+[core]
+    # 如果你的源文件中是换行符是LF，而autocrlf=true, 此时git add就会遇到 fatal: LF would be replaced by CRLF 的错误。
+	autocrlf = false
+    # 解决 Windows Git Bash、Linux 下的中文转码问题；
+	quotepath = false
+[alias]
+	st = status
+	cm = commit
+	cl = clone
+
+
+
+# 以上规则都可通过命令行形式添加
+# git config --global  alias.st status
+
+# 查看所有的配置
+#  git config -l
