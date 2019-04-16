@@ -17,4 +17,6 @@
 # git config --global  alias.st status
 
 # 查看所有的配置
-#  git config -l
+# git config -l
+# git config --local --list (当前目录)
+# git config --global --list (全局)
